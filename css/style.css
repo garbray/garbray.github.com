@@ -267,15 +267,20 @@ nav {
   margin: 10px auto;
 }
 
+nav ul {
+  margin: 0 auto;
+  width:87.431693989071%; /* 800 / 915 */
+}
+
 nav li {
   background: #4183C4;/* 65 131 196*/
   background: rgba(65,131,196,0.5);
   border-radius: 8px;
-  font-size: 20px;
+  font-size: 1.25em; /* 20 / 16 */
   list-style: none;
   display: inline-block;
   margin: 10px;
-  padding: 15px; 
+  padding: 5px; 
   text-align: center;
   width: 100px;
 }
@@ -326,10 +331,14 @@ Header
   Content
   *********************/
 
-  nav li {
-    padding: 5px;
-
+  main {
+    margin-top: 280px;
   }
+
+  nav ul {
+    width: 280px;
+  }
+  
 }
 
 
