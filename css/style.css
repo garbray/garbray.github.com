@@ -258,7 +258,7 @@ Body
 
 #content {
   box-shadow: 0px 3px 10px rgba(0,0,0,0.5);
-  height: 300px;
+  height: auto;
   width: auto;
 }
 
