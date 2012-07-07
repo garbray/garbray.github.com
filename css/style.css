@@ -269,7 +269,8 @@ nav {
 
 nav ul {
   margin: 0 auto;
-  width:87.431693989071%; /* 800 / 915 */
+  /*width:87.431693989071%; /* 800 / 915 */
+  width: 92.330316742081%;
 }
 
 nav li {
@@ -314,7 +315,7 @@ footer h3 {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (max-width: 428px) {
+@media only screen and (max-width: 423px) {
   
 /********************
 Header
@@ -331,8 +332,8 @@ Header
   Content
   *********************/
 
-  main {
-    margin-top: 280px;
+  #main {
+    margin-top: 160px;
   }
 
   nav ul {
@@ -341,7 +342,15 @@ Header
   
 }
 
-
+@media only screen and (max-width: 600px){
+  /********************
+  Content
+  *********************/
+  nav ul {
+     /* 386 / 442 */
+  }
+}
+/* 600 px others problems with columns */
 
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
