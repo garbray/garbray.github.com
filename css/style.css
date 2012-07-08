@@ -291,7 +291,7 @@ nav li {
   width: 100px;
 }
 
-#main li:hover {
+#main lihover {
   background: #4183C4;
   background: rgba(65,131,196,0.8);
 }
