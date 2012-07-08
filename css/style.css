@@ -279,7 +279,7 @@ nav ul {
 }
 
 nav li {
-  background: #4183C4;/* 65 131 196*/
+  background: #9fc0c1;/* 65 131 196*/
   background: rgba(65,131,196,0.5);
   border-radius: 8px;
   font-size: 1.25em; /* 20 / 16 */
@@ -291,7 +291,7 @@ nav li {
   width: 100px;
 }
 
-#main lihover {
+#main li:hover {
   background: #4183C4;
   background: rgba(65,131,196,0.8);
 }
