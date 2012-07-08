@@ -293,12 +293,12 @@ nav li {
 
 #main li:hover {
   background: #4183C4;
-  background: rgba(65,131,196,0.8);
 }
 
 .selected {
   background: #4183C4;
 }
+
 
 
 
@@ -357,7 +357,12 @@ Header
   }
 }
 /* 600 px others problems with columns */
-
+@media only screen and (max-width: 280px) {
+  header {
+    position: absolute;
+  }
+}
+/* 300 px problems with the header */
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
    ========================================================================== */
