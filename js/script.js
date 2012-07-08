@@ -8,12 +8,13 @@
 
 var content = $('content'),
 	about = $('about'),
-	interesting = $('interesting'),
-	twitter = $('twitter'),
-	places = $('places'),
+	cont = "",
 	findme = $('findme'),
-	proyects = $('proyects')
-	cont = "";
+	interesting = $('interesting'),
+	li = $$('.view'),
+	places = $('places'),
+	proyects = $('proyects'),
+	twitter = $('twitter');
 
 
 
@@ -59,7 +60,8 @@ function showInteresting(){
 				<ul> <li> like </li>\
 				</ul>\
 				</p>"
-	changeContent(cont);
+	console.log(this);
+	changeContent(cont).bind(this);
 }
 
 function showTwitter(){
@@ -67,8 +69,17 @@ function showTwitter(){
 	changeContent(cont);
 }
 
-
-
 function changeContent(text){
 	content.innerHTML = text;
+	removeSelected();
+	console.log(this);
+	//this.addClassName('selected');
 }
+
+function removeSelected(){
+	for (var i = 0; i < li.length; i++) {
+		li[i].removeClassName('selected');
+	};
+}
+
+
