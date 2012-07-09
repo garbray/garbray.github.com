@@ -21,6 +21,8 @@ Element.prototype.removeClassName = function(name) {
 window.getStyle = function(elem, styleProp){
 	return elem.currentStyle ? elem.currentStyle[styleProp] : window.getComputedStyle(elem,null).getPropertyValue(styleProp);
 };
+
+/*
 window.$ = function (){
     return document.getElementById.apply(document, arguments)
 }
@@ -33,4 +35,4 @@ Function.prototype.bind = function(scope) {
   return function() {return _function.apply(scope, arguments);}
 }
 
-
+*/

@@ -71,13 +71,27 @@ function showTwitter(){
 function changeContent(ele,text){
 	content.innerHTML = text;
 	removeSelected();
-	ele.addClassName('selected');
+	ele.addClass('selected');
 }
 
 function removeSelected(){
 	for (var i = 0; i < li.length; i++) {
-		li[i].removeClassName('selected');
+		li[i].removeClass('selected');
 	};
 }
 
 
+/************************************
+ * obtain tweets 
+ ************************************/
+x = new Request.JSONP({
+  url: "http://search.twitter.com/search.json",
+  data: {
+    q: "garbray"
+  },
+  onComplete: function(tweets) {
+    // Log the result to console for inspection
+    console.log('tweets of user query:'+tweets);
+    // left implementation of the function to display the tweets and set the style
+  }
+}).send();
