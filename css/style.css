@@ -328,7 +328,7 @@ Header
 *********************/
   header {
     height: 120px;
-    position: absolute;
+    position: absolute; /* 300 px problems with the header */
   }
 
   header h1 {
@@ -358,12 +358,8 @@ Header
   }
 }
 /* 600 px others problems with columns */
-@media only screen and (max-width: 280px) {
-  header {
-    position: absolute;
-  }
-}
-/* 300 px problems with the header */
+
+
 /* ==|== non-semantic helper classes ========================================
    Please define your styles before this section.
    ========================================================================== */

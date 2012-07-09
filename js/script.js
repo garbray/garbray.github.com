@@ -23,12 +23,12 @@ var content = $('content'),
  * Event listener
  ************************************/
 
-about.addEventListener('click', showAbout);
-findme.addEventListener('click',showFindMe);
-interesting.addEventListener('click',showInteresting);
-places.addEventListener('click',showPlaces);
-proyects.addEventListener('click',showProyects);
-twitter.addEventListener('click',showTwitter);
+about.addEvent('click', showAbout);
+findme.addEvent('click',showFindMe);
+interesting.addEvent('click',showInteresting);
+places.addEvent('click',showPlaces);
+proyects.addEvent('click',showProyects);
+twitter.addEvent('click',showTwitter);
 
 
 /************************************
