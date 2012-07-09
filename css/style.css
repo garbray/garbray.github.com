@@ -328,6 +328,7 @@ Header
 *********************/
   header {
     height: 120px;
+    position: absolute;
   }
 
   header h1 {
