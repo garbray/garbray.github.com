@@ -237,9 +237,10 @@ header {
 
 
 
-header h1 {
+header h1{
+  font-family: 'Playball', cursive;
   color: #FFF;
-  font-size: 1.75em ;/* 28/16 */
+  font-size: 2em ;/* 32/16 */
   margin:  20px 6.25%;/*  80 /1280 */
 }
 

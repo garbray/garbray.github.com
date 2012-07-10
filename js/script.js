@@ -14,7 +14,6 @@ var content = $('content'),
 	li = $$('.view'),
 	places = $('places'),
 	proyects = $('proyects'),
-	lTweets,
 	twitter = $('twitter');
 
 
@@ -116,8 +115,7 @@ function displayTweets(tweets){
 * Initialize
 **/
 function initialize(){
-	//tweets();
-	showAbout();
+	tweets();
 }
 
 
