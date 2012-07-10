@@ -14,6 +14,7 @@ var content = $('content'),
 	li = $$('.view'),
 	places = $('places'),
 	proyects = $('proyects'),
+	lTweets,
 	twitter = $('twitter');
 
 
@@ -84,14 +85,38 @@ function removeSelected(){
 /************************************
  * obtain tweets 
  ************************************/
-x = new Request.JSONP({
-  url: "http://search.twitter.com/search.json",
-  data: {
-    q: "garbray"
-  },
-  onComplete: function(tweets) {
-    // Log the result to console for inspection
-    console.log('tweets of user query:'+tweets);
-    // left implementation of the function to display the tweets and set the style
-  }
-}).send();
+function tweets(){
+	new Request.JSONP({
+  		url: "http://search.twitter.com/search.json",
+  		data: {
+			q: "garbray" /* query by username */
+		},
+	    onComplete: function(tweet) {
+	    // inyect the response on the listTweet
+	    lTweets = tweet;
+	    displayTweets(tweet);
+	    
+		}
+	}).send();
+}  
+
+
+/**
+*display tweet
+*@tweets
+***/
+function displayTweets(tweets){
+	for (var i = 0; i < tweets.results.length; i++) {
+		console.log(tweets.results[i].text);
+		//miss styling of the tweet list
+	};
+}
+
+/**
+* Initialize
+**/
+function initialize(){
+	//tweets();
+	showAbout();
+}
+
