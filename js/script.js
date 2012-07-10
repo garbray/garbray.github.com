@@ -12,6 +12,7 @@ var content = $('content'),
 	findme = $('findme'),
 	interesting = $('interesting'),
 	li = $$('.view'),
+	lTweets="<p>",
 	places = $('places'),
 	proyects = $('proyects'),
 	twitter = $('twitter');
@@ -64,7 +65,7 @@ function showInteresting(){
 }
 
 function showTwitter(){
-	cont = "<p> Twitter</p>";
+	cont = lTweets;
 	changeContent(this,cont);
 }
 
@@ -92,9 +93,7 @@ function tweets(){
 		},
 	    onComplete: function(tweet) {
 	    // inyect the response on the listTweet
-	    lTweets = tweet;
 	    displayTweets(tweet);
-	    
 		}
 	}).send();
 }  
@@ -106,9 +105,9 @@ function tweets(){
 ***/
 function displayTweets(tweets){
 	for (var i = 0; i < tweets.results.length; i++) {
-		console.log(tweets.results[i].text);
-		//miss styling of the tweet list
+		lTweets += tweets.results[i].text;
 	};
+	lTweets += "</p>";
 }
 
 /**
