@@ -104,6 +104,7 @@ function tweets(){
 *@tweets
 ***/
 function displayTweets(tweets){
+	console.info(tweets)
 	for (var i = 0; i < tweets.results.length; i++) {
 		lTweets += tweets.results[i].text+"<br>";
 	};
@@ -112,11 +113,10 @@ function displayTweets(tweets){
 
 /**
 * Initialize
+* @call tweets function
 **/
 function initialize(){
 	tweets();
 }
-
-
 
 initialize();
