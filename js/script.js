@@ -66,6 +66,7 @@ function showInteresting(){
 
 function showTwitter(){
 	cont = lTweets;
+	tweets();
 	changeContent(this,cont);
 }
 
@@ -106,9 +107,9 @@ function tweets(){
 function displayTweets(tweets){
 	console.info(tweets)
 	for (var i = 0; i < tweets.results.length; i++) {
-		lTweets += tweets.results[i].text+"<br>";
+		lTweets += "<p>"+tweets.results[i].text+"</p>";
 	};
-	lTweets += "</p>";
+	
 }
 
 /**
