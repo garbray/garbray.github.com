@@ -368,7 +368,7 @@ Footer
   }
 
   #content {
-    margin-top:160px;
+    margin-top:140px;
   }
 }
 
@@ -384,7 +384,7 @@ Header
   Content
   *********************/
   #content {
-    margin-top: 180px;
+    margin-top: 160px;
     height: auto;
   }
 
@@ -414,9 +414,6 @@ Header
   /********************
   Content
   *********************/
-  #content {
-    margin-top:200px;
-  }
   #nav {
     width: 300px;
   }
