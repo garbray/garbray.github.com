@@ -235,21 +235,44 @@ header {
   width:100%;
 }
 
-
-
-
-
 header h1{
-  font-family: 'Playball', cursive;
   color: #FFF;
+  font-family: 'Playball', cursive;
   font-size: 2em ;/* 32/16 */
+  float: left;
   margin:  20px 6.25%;/*  80 /1280 */
 }
 
+header ul {
+  float: right;
+  position: relative;
+  margin-right: 6.25%;
+  margin-left: 0;
+  width: 200px;
+}
 
+header li {
+  display: inline-block;
+  list-style: none;
+  padding-left:20px;
+}
 
+.imgCont {
+  background-color: #FFF;
+  border-radius: 20px;
+  padding: 2px;
+  width: 40px;
+  height: 40px;
+}
 
+header li img {
+  max-width: 100%;
+  opacity: 0.4;
+}
 
+header li img:hover {
+  opacity: 1;
+}
 /********************
 Body 
 *********************/
@@ -307,11 +330,6 @@ nav li {
   background: #4183C4;
 }
 
-
-
-
-
-
 /********************
 Footer 
 *********************/
@@ -320,14 +338,19 @@ footer h3 {
   text-align: center;
 }
 
-
-
-
 /* ==|== media queries ======================================================
-   EXAMPLE Media Query for Responsive Design.
-   This example overrides the primary ('mobile first') styles
-   Modify as content requires.
+  author: garbray
    ========================================================================== */
+   /* 883 trobles with social icons */
+@media only screen and (max-width: 883px) {
+  header ul {
+    float: left;
+  }
+
+  #content {
+    margin-top:160px;
+  }
+}
 
 @media only screen and (max-width: 423px) {
   
@@ -345,7 +368,9 @@ Header
   /********************
   Content
   *********************/
-
+  #content {
+    margin-top:200px;
+  }
   nav ul {
     width: 280px;
   }
@@ -363,11 +388,14 @@ Header
   Content
   *********************/
   #content {
-    margin-top: 160px;
+    margin-top: 180px;
     height: auto;
   }
 }
 /* 600 px others problems with columns */
+
+
+
 
 
 /* ==|== non-semantic helper classes ========================================

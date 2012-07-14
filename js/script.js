@@ -17,9 +17,6 @@ var content = $('content'),
 	proyects = $('proyects'),
 	twitter = $('twitter');
 
-
-
-
 /************************************
  * Event listener
  ************************************/
@@ -30,7 +27,6 @@ interesting.addEvent('click',showInteresting);
 places.addEvent('click',showPlaces);
 proyects.addEvent('click',showProyects);
 twitter.addEvent('click',showTwitter);
-
 
 /************************************
  * Functions
@@ -82,7 +78,6 @@ function removeSelected(){
 	};
 }
 
-
 /************************************
  * obtain tweets 
  ************************************/
@@ -98,7 +93,6 @@ function tweets(){
 		}
 	}).send();
 }  
-
 
 /**
 *display tweet
