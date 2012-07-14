@@ -243,36 +243,7 @@ header h1{
   margin:  20px 6.25%;/*  80 /1280 */
 }
 
-header ul {
-  float: right;
-  position: relative;
-  margin-right: 6.25%;
-  margin-left: 0;
-  width: 200px;
-}
 
-header li {
-  display: inline-block;
-  list-style: none;
-  padding-left:20px;
-}
-
-.imgCont {
-  background-color: #FFF;
-  border-radius: 20px;
-  padding: 2px;
-  width: 40px;
-  height: 40px;
-}
-
-header li img {
-  max-width: 100%;
-  opacity: 0.4;
-}
-
-header li img:hover {
-  opacity: 1;
-}
 /********************
 Body 
 *********************/
@@ -334,8 +305,39 @@ nav li {
 Footer 
 *********************/
 
-footer h3 {
-  text-align: center;
+#social {
+  margin:0 auto;
+  width: 190px;
+}
+
+#social ul {
+  position: relative;
+  margin-right: 6.25%;
+  margin-left: -40px;
+  width: 200px;
+}
+
+#social li {
+  display: inline-block;
+  list-style: none;
+  padding-left:20px;
+}
+
+.imgCont {
+  background-color: #FFF;
+  border-radius: 20px;
+  padding: 2px;
+  width: 40px;
+  height: 40px;
+}
+
+#social li img {
+  max-width: 100%;
+  opacity: 0.4;
+}
+
+#social li img:hover {
+  opacity: 1;
 }
 
 /* ==|== media queries ======================================================
