@@ -269,6 +269,11 @@ Body
   padding: 5px;
 }
 
+#nav {
+  margin:0 auto;
+  width: 960px;
+}
+
 nav {
   width: 84.94495412844% ;/*915 / 1090 */
   margin: 10px auto;
@@ -277,7 +282,7 @@ nav {
 nav ul {
   margin: 0 auto;
   /*width:87.431693989071%; /* 800 / 915 */
-  width: 92.330316742081%;
+  width: auto;
 }
 
 nav li {
@@ -307,7 +312,7 @@ Footer
 
 #social {
   margin:0 auto;
-  width: 190px;
+  width: 172px;
 }
 
 #social ul {
@@ -320,7 +325,11 @@ Footer
 #social li {
   display: inline-block;
   list-style: none;
-  padding-left:20px;
+  padding-right:20px;
+}
+
+#social li:nth-child(3){
+  padding-right: 
 }
 
 .imgCont {
@@ -343,6 +352,15 @@ Footer
 /* ==|== media queries ======================================================
   author: garbray
    ========================================================================== */
+@media only screen and (max-width: 1185px){
+  /********************
+  Content
+  *********************/
+  #nav {
+    width: 530px;
+  }
+}
+
    /* 883 trobles with social icons */
 @media only screen and (max-width: 883px) {
   header ul {
@@ -353,6 +371,32 @@ Footer
     margin-top:160px;
   }
 }
+
+/* 600 px others problems with columns */
+@media only screen and (max-width: 550px){
+  /********************
+Header
+*********************/
+  header {
+    height: 120px;
+  }
+  /********************
+  Content
+  *********************/
+  #content {
+    margin-top: 180px;
+    height: auto;
+  }
+
+  #nav {
+    width: 450px;
+  }
+
+  nav ul {
+    width: 280px;
+  }
+}
+
 
 @media only screen and (max-width: 423px) {
   
@@ -373,30 +417,14 @@ Header
   #content {
     margin-top:200px;
   }
+  #nav {
+    width: 300px;
+  }
   nav ul {
     width: 280px;
   }
   
 }
-
-@media only screen and (max-width: 550px){
-  /********************
-Header
-*********************/
-  header {
-    height: 120px;
-  }
-  /********************
-  Content
-  *********************/
-  #content {
-    margin-top: 180px;
-    height: auto;
-  }
-}
-/* 600 px others problems with columns */
-
-
 
 
 
