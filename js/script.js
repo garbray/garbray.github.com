@@ -103,7 +103,6 @@ function displayTweets(tweets){
 	for (var i = 0; i < tweets.results.length; i++) {
 		lTweets += "<p>"+tweets.results[i].text+"</p>";
 	};
-	
 }
 
 /**
