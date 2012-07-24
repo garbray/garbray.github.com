@@ -240,8 +240,15 @@ header
 
     span
       font-family 'Playball', cursive
-      text-shadow 1px 0 rgba(237,28,49,0.4)
+      text-shadow 6px 5px rgba(237,28,49,0.4), -6px -5px rgba(65,131,196,1)
       color black
+      -webkit-transition all 0.5s ease
+      -moz-transition all 0.5s ease
+
+      &:hover
+        text-shadow 1px 0 rgba(237,28,49,0.4), -1px 0 rgba(65,131,196,1)
+        -webkit-transition all 0.5s ease
+        -moz-transition all 0.5s ease
 
 /************** CONTENT ******************/
 
@@ -258,56 +265,57 @@ header
   min-height: 350px
   height: auto
 
-#icons ul
-  height: 0
-  width: auto
+#icons 
+  ul
+    height: 0
+    width: auto
 
-#icons li
-  border-radius: 30px
-  border dashed 2px rgba(65,131,196,1)
-  display: inline-block
-  font-size: 1.25em
-  height: 40px
-  list-style: none
-  margin: 10px
-  padding: 5px
-  position: relative
-  text-align: center
-  width: 40px
+  li
+    border-radius: 30px
+    border dashed 2px rgba(65,131,196,1)
+    display: inline-block
+    font-size: 1.25em
+    height: 40px
+    list-style: none
+    margin: 10px
+    padding: 5px
+    position: relative
+    text-align: center
+    width: 40px
 
-  &:nth-child(1)
-    background rgba(65,131,196,0.5) url(../img/comments.png) no-repeat center center
-
-
-  &:nth-child(2)
-    background rgba(65,131,196,0.5) url(../img/embed.png) no-repeat center center
+    &:nth-child(1)
+      background rgba(65,131,196,0.5) url(../img/comments.png) no-repeat center center
 
 
-  &:nth-child(3)
-    background rgba(65,131,196,0.5) url(../img/github2.png) no-repeat center center
+    &:nth-child(2)
+      background rgba(65,131,196,0.5) url(../img/embed.png) no-repeat center center
 
 
-  &:nth-child(4)
-    background rgba(65,131,196,0.5) url(../img/twitter-bird.png) no-repeat center center
+    &:nth-child(3)
+      background rgba(65,131,196,0.5) url(../img/github2.png) no-repeat center center
 
 
-  &:nth-child(5)
-    background rgba(65,131,196,0.5) url(../img/checkmark.png) no-repeat center center
+    &:nth-child(4)
+      background rgba(65,131,196,0.5) url(../img/twitter-bird.png) no-repeat center center
 
 
-  &:nth-child(6)
-    background rgba(65,131,196,0.5) url(../img/location.png) no-repeat center center
+    &:nth-child(5)
+      background rgba(65,131,196,0.5) url(../img/checkmark.png) no-repeat center center
 
 
-  &:nth-child(n)
-    &:hover
-      cursor pointer
-      background-color: rgba(237,28,49,0.6)
-      border dashed 2px rgba(237,28,49,1)
+    &:nth-child(6)
+      background rgba(65,131,196,0.5) url(../img/location.png) no-repeat center center
 
-#icons li.selected
-  border solid 2px rgba(237,28,49,1)
-  background-color: rgba(237,28,49,0.8)
+
+    &:nth-child(n)
+      &:hover
+        cursor pointer
+        background-color: rgba(237,28,49,0.6)
+        border dashed 2px rgba(237,28,49,1)
+
+  li.selected
+    border solid 2px rgba(237,28,49,1)
+    background-color: rgba(237,28,49,1)
 
 #content
   border-radius: 40px

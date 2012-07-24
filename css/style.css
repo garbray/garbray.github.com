@@ -277,8 +277,15 @@ header h1:hover {
 }
 header h1 span {
   font-family: 'Playball', cursive;
-  text-shadow: 1px 0 rgba(237,28,49,0.4);
+  text-shadow: 6px 5px rgba(237,28,49,0.4), -6px -5px #4183c4;
   color: #000;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}
+header h1 span:hover {
+  text-shadow: 1px 0 rgba(237,28,49,0.4), -1px 0 #4183c4;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
 }
 /************** CONTENT ******************/
 #main {
@@ -335,7 +342,7 @@ header h1 span {
 }
 #icons li.selected {
   border: solid 2px #ed1c31;
-  background-color: rgba(237,28,49,0.8);
+  background-color: #ed1c31;
 }
 #content {
   border-radius: 40px;
