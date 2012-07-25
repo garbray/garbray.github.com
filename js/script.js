@@ -99,11 +99,15 @@ function tweets(){
 *@tweets
 ***/
 function displayTweets(tweets){
-	console.info(tweets)
 	for (var i = 0; i < tweets.results.length; i++) {
-		lTweets += "<p>"+tweets.results[i].text+"</p>";
+		lTweets += "<p>"+userTweet(tweets.results[i].text)+"</p>";
 	};
 }
+
+function userTweet(tweet){
+	return tweet.replace(/@\w+/g, function(data){ return '<span>'+data+'</span>'},function(data){console.log(data)})
+}
+
 
 /**
 * Initialize

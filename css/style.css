@@ -351,6 +351,9 @@ header h1 span:hover {
   width: 80%;
   margin: 0 auto 30px;
 }
+#content p span {
+  color: #ed1c31;
+}
 /************** FOOTER ******************/
 footer {
   position: fixed;
