@@ -15,7 +15,8 @@ var content = $('content'),
 	lTweets="<p>",
 	places = $('places'),
 	proyects = $('proyects'),
-	twitter = $('twitter');
+	twitter = $('twitter'),
+	flag = false;
 
 /************************************
  * Event listener
@@ -62,11 +63,11 @@ function showInteresting(){
 
 function showTwitter(){
 	cont = lTweets;
-	tweets();
 	changeContent(this,cont);
 }
 
 function changeContent(ele,text){
+	ele.match('#twitter')?flag=true:flag=false
 	content.innerHTML = text;
 	removeSelected();
 	ele.addClass('selected');
@@ -98,15 +99,25 @@ function tweets(){
 *display tweet
 *@tweets
 ***/
-function displayTweets(tweets){
-	for (var i = 0; i < tweets.results.length; i++) {
-		lTweets += "<p>"+userTweet(tweets.results[i].text)+"</p>";
-	};
+function userTweet(tweet){
+	return tweet.replace(/@\w+/g, function(data){ return '<span>'+data+'</span>'})
 }
 
-function userTweet(tweet){
-	return tweet.replace(/@\w+/g, function(data){ return '<span>'+data+'</span>'},function(data){console.log(data)})
+function displayTweets(tweets){
+	// for (var i = 1; i < tweets.results.length; i++) {
+	// 	lTweets += "<p>"+userTweet(tweets.results[i].text)+"</p>";
+	// };
+	lTweets = "<p>"+userTweet(tweets.results[0].text)+"</p>";
+	setInterval(function(){
+		var numTweet = Math.floor(Math.random()*tweets.results.length);
+		lTweets = "<p>"+userTweet(tweets.results[numTweet].text)+"</p>";
+		if(flag == true){			
+			content.innerHTML = lTweets;
+		}
+	},5000);
 }
+
+
 
 
 /**
