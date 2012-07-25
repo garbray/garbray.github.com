@@ -16,6 +16,7 @@ var content = $('content'),
 	places = $('places'),
 	proyects = $('proyects'),
 	twitter = $('twitter'),
+	i = 1,
 	flag = false;
 
 /************************************
@@ -109,16 +110,13 @@ function displayTweets(tweets){
 	// };
 	lTweets = "<p>"+userTweet(tweets.results[0].text)+"</p>";
 	setInterval(function(){
-		var numTweet = Math.floor(Math.random()*tweets.results.length);
-		lTweets = "<p>"+userTweet(tweets.results[numTweet].text)+"</p>";
+		(i<tweets.results.length)?i++:i=0;
+		lTweets = "<p>"+userTweet(tweets.results[i].text)+"</p>";
 		if(flag == true){			
 			content.innerHTML = lTweets;
 		}
-	},5000);
+	},7000);
 }
-
-
-
 
 /**
 * Initialize
