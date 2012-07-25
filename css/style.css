@@ -354,6 +354,16 @@ header h1 span:hover {
 #content p {
   font-size: 1.4em;
 }
+#content p a {
+  text-decoration: none;
+  color: #4183c4;
+}
+#content p a:hover {
+  color: #4183c4;
+}
+#content p a:visited {
+  color: #4183c4;
+}
 #content p span {
   color: #ed1c31;
 }

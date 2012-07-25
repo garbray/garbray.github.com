@@ -101,16 +101,16 @@ function tweets(){
 *@tweets
 ***/
 function userTweet(tweet){
-	return tweet.replace(/@\w+/g, function(data){ return '<span>'+data+'</span>'})
+	tweet = tweet.replace(/@\w+/g, function(data){ return '<span>'+data+'</span>'})
+	tweet = tweet.replace(/#\w+/g, function(data){ return '<span>'+data+'</span>'})
+	tweet = tweet.replace(/http:\/\/\w+\.\w+\/\w+/g, function(data){ return '<a href='+data+' target="_blank">'+data+'</a>'})
+	return tweet;
 }
 
 function displayTweets(tweets){
-	// for (var i = 1; i < tweets.results.length; i++) {
-	// 	lTweets += "<p>"+userTweet(tweets.results[i].text)+"</p>";
-	// };
 	lTweets = "<p>"+userTweet(tweets.results[0].text)+"</p>";
 	setInterval(function(){
-		(i<tweets.results.length)?i++:i=0;
+		(i<tweets.results.length-1)?i++:i=0;
 		lTweets = "<p>"+userTweet(tweets.results[i].text)+"</p>";
 		if(flag == true){			
 			content.innerHTML = lTweets;
