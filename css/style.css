@@ -293,11 +293,9 @@ header h1 span:hover {
   padding: 0;
   z-index: -3;
 }
-#icons,
-#comic img {
+#icons {
   display: relative;
   width: 270px;
-  min-height: 350px;
   height: auto;
 }
 #icons ul {
@@ -343,6 +341,15 @@ header h1 span:hover {
 #icons li.selected {
   border: solid 2px #ed1c31;
   background-color: #ed1c31;
+}
+#icons li.selected:hover {
+  cursor: pointer;
+  border: solid 2px #ed1c31;
+  background-color: #ed1c31;
+}
+#comic img {
+  width: 270;
+  height: 240;
 }
 #content {
   border-radius: 40px;
@@ -408,7 +415,7 @@ footer {
   opacity: 1;
 }
 /************************************
-
+media queries
 *************************************/
 @media screen and (max-width: 900px) {
   footer {
@@ -421,7 +428,7 @@ footer {
   }
 }
 /************************************
-media queries
+
 *************************************/
 .ir {
   display: block;

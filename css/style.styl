@@ -259,11 +259,12 @@ header
   z-index: -3
 
 
-#icons, #comic img
+#icons
   display: relative
   width: 270px
-  min-height: 350px
+  //min-height: 350px
   height: auto
+
 
 #icons 
   ul
@@ -316,6 +317,14 @@ header
   li.selected
     border solid 2px rgba(237,28,49,1)
     background-color: rgba(237,28,49,1)
+    &:hover
+      cursor pointer
+      border solid 2px rgba(237,28,49,1)
+      background-color: rgba(237,28,49,1)
+
+#comic img
+  width 270
+  height 240 //230 * 200
 
 #content
   border-radius: 40px
