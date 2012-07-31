@@ -40,7 +40,7 @@ function showAbout(){
 }
 
 function showFindMe(){
-	cont = "<h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</h5>";
+	cont = "<iframe width='100%' height='350' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://maps.google.com/?vector=1&amp;ie=UTF8&amp;ll=4.63274,-74.066269&amp;spn=0.006095,0.007178&amp;t=v&amp;z=17&amp;output=embed'></iframe>";
 	changeContent(this,cont);
 }
 
