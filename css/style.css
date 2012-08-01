@@ -255,6 +255,9 @@ Author: garbray
 * {
   font-family: 'Squada One';
 }
+body {
+  background-color: #dfdfdf;
+}
 header {
   height: 80px;
   width: 100%;
