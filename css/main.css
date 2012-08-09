@@ -385,6 +385,10 @@ body {
 a {
   text-decoration: none;
 }
+a:hover,
+a:visited {
+  text-decoration: none;
+}
 header,
 #main {
   margin: 0 auto;
