@@ -534,6 +534,12 @@ footer {
   font-size: 0.8em;
   color: #000;
 }
+#tweets-container p span {
+  color: #099;
+}
+#tweets-container a {
+  color: #ff4d4d;
+}
 /* ==|== media queries ======================================================
 	 EXAMPLE Media Query for Responsive Design.
 	 This example overrides the primary ('mobile first') styles

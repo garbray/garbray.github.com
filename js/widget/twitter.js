@@ -56,7 +56,7 @@ define(['widget/twitter'],function(){
 			}
 			/* loop for add the tweets into a div inside of node */
 			for(var i=0, len = tweets.length; i < len; i++){
-				node.innerHTML += '<div class="content-msg" style='+(i==0?'"display: block"':'"display: none"')+'"><h4>'+tweets[i].user+'</h4><p class="text">'+this.renderTweet(tweets[i].text)+'</p></div>'
+				node.innerHTML += '<div class="content-msg" style='+(i==0?'"display: block"':'"display: none"')+'"><p class="text">'+this.renderTweet(tweets[i].text)+'</p></div>'
 			}
 			var cont = node.getElements('.content-msg')
 			/* animation and time loop */
