@@ -14,7 +14,6 @@
 
 	<link rel="stylesheet" href="css/main.css">
 	<script src="js/lib/modernizr-2.6.1.min.js"></script>
-	<script type="text/javascript" src="js/lib/mootools.js"></script>
 </head>
 <body>
 
@@ -25,7 +24,7 @@
 		<nav>
 			<ul>
 				<li>
-					<a href="#">Home</a>	
+					<a href="#" class="selected">Home</a>	
 				</li>
 				<li>
 					<a href="#">Blog</a>
@@ -40,7 +39,7 @@
 				<p>System ingenier who loves web design, frond-end, back-end development and the good music.</p>
 			</div>
 			<div class="right">
-				<p>If you want to saw the projects I do, go to github and search for garbray and look around my's <a href="http://github.com/garbray"> projects</a>.</p>
+				<p>If you want to saw the projects I do, go to github and search for garbray and look around my's <a href="http://github.com/garbray" target="_blank"> projects</a>.</p>
 			</div>
 		</div>
 		<div id="iknow">
@@ -57,27 +56,32 @@
 		</div>
 		<div id="foot-bg">
 			<div id="foot-cont">
+				<div id="tweets" class="left">
+					<div id="tweets-container">
+						
+					</div>
+				</div>
 				<div id="findme" class="right">
 					<h3>Find me on:</h3>
 					<ul>
 						<li>
-							<a href="http://twitter.com/garbray">
+							<a href="http://twitter.com/garbray" target="_blank">
 								<img src="img/social/twitter.png" alt="twitter">
 							</a>
 						</li>
 						<li>
-							<a href="https://plus.google.com/114214027246580334236/posts">
+							<a href="https://plus.google.com/114214027246580334236/posts" target="_blank">
 								<img src="img/social/google-plus.png" alt="google plus">
 							</a>
 						</li>
 						<li>
-							<a href="http://github.com/garbray">
+							<a href="http://github.com/garbray" target="_blank">
 								<img src="img/social/github.png" alt="github">
 							</a>
 						</li>
 						<li>
-							<a href="http://tumbr.com">
-								<img src="img/social/tumbr.png" alt="tumbr">
+							<a href="http://tumblr.com" target="_blank">
+								<img src="img/social/tumblr.png" alt="tumblr">
 							</a>
 						</li>
 					</ul>
@@ -86,22 +90,16 @@
 						<p>057 304 437 56 50</p>
 					</div>
 				</div>
-				<div id="tweets" class="left">
-					<div id="tweets-container">
-						
-					</div>
-				</div>
 			</div>
-
 		</div>
-		
 	</footer>
+	<script type="text/javascript" src="js/lib/mootools.js"></script>
 	<script type="text/javascript" src="js/lib/mootools.more.js"></script>
 	<script data-main="js/main" src="js/lib/require.min.js"></script>
 	<script type="text/javascript">
-		requirejs.config({
-    		baseUrl: 'js/'
-		});
+		// requirejs.config({
+  //   		baseUrl: 'js/'
+		// });
 	</script>
 </body>
 </html>

@@ -389,6 +389,9 @@ a:hover,
 a:visited {
   text-decoration: none;
 }
+.selected {
+  color: #000;
+}
 header,
 #main {
   margin: 0 auto;
@@ -519,7 +522,7 @@ footer {
 }
 #tweets {
   background: url("../img/messagebubble.png") no-repeat;
-  width: 461px;
+  width: 375px;
 /* 1280*/
   height: 270px;
 }
@@ -545,10 +548,65 @@ footer {
 	 This example overrides the primary ('mobile first') styles
 	 Modify as content requires.
 	 ========================================================================== */
-/*
-@media only screen and (min-width 35em)
-	// Style adjustments for viewports that meet the condition 
-*/
+@media screen and (max-width: 800px) {
+  .right,
+  .left {
+    width: auto;
+    float: inherit;
+  }
+  .hightLightText {
+    font-size: 2.5em;
+  }
+  #iknow p,
+  #iam .left p,
+  #iam .right p {
+    font-size: 1.6em;
+  }
+  #tweets,
+  #findme {
+    margin: 0 auto;
+  }
+  #tweets-container {
+    padding-top: 20px;
+  }
+  #findme {
+    width: 55%;
+    margin: 0 auto;
+    height: auto;
+  }
+  #foot-cont {
+    padding: 10px 0 0;
+  }
+}
+@media screen and (max-width: 850px) {
+  #title {
+    width: 100%;
+    position: relative;
+    top: 50px;
+  }
+  nav {
+    margin-top: 110px;
+  }
+}
+@media screen and (max-width: 905px) {
+  #foot-cont {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 635px) {
+  #findme {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 430px) {
+  #tweets {
+    display: none;
+  }
+  #title h1 {
+    font-size: 3.5em;
+    width: 295px;
+  }
+}
 /* ==|== non-semantic helper classes ========================================
 	 Please define your styles before this section.
 	 ========================================================================== */
