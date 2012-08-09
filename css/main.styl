@@ -348,17 +348,24 @@ body
 	padding 0
 
 .left, .right
-		width 45%
-		height 350px
-		display block
+	width 45%
+	display block
 
-		p
-			font-size 2em
-			color rgba(0,0,0,0.5)
+	p
+		font-size 2em
+		color rgba(0,0,0,0.5)
 .left
 	float left
 .right
 	float right
+
+.hightLightText
+	font-size 3em
+	margin 0 auto
+	text-shadow 2px 2px rgba(255,77,77,1), 5px 5px black
+a
+	text-decoration none
+
 
 // /*************** Header **********************/
 header, #main
@@ -378,6 +385,7 @@ header, #main
 		box-shadow 0 0 20px black
 		color white /* white or black */
 		text-shadow 2px 2px rgba(255,77,77,1)
+
 
 nav
 	margin-top 70px
@@ -400,28 +408,37 @@ nav
 
 
 /*************** Content **********************/
+#main, #iam, #iknow
+	overflow hidden
 
 #main
-	overflow hidden
 	margin-top 100px
+#iam
 	h2
-		font-size 3em
-		margin 0 auto
 		width 312px
-		text-shadow 2px 2px rgba(255,77,77,1), 5px 5px black
-
 	.left, .right
 		p
 			font-size 2em
 			color rgba(0,0,0,0.5)
+			a
+				color rgba(0,0,0,0.8)
 
+#iknow
+	h2
+		width 387px
+		margin-bottom 30px
+	p
+		font-size 2em
+		color rgba(0,0,0,0.5)
+		padding 0
+		margin 5px 0 10px
 
 
 /*************** Footer **********************/
 
 footer
 	width 100%
-	margin 5px 0 0
+	margin 30px 0 0
 
 #foot-hd
 	background url(../img/footer-hd.png) 
@@ -452,6 +469,14 @@ footer
 		border-radius 25px
 		width 44px
 		height 44px
+
+	#contact
+		h3, p
+			padding 5px
+			margin 0
+		p
+			font-size 1.6em
+
 		
 #tweets
 	background url(../img/messagebubble.png) no-repeat

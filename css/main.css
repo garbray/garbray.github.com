@@ -364,7 +364,6 @@ body {
 .left,
 .right {
   width: 45%;
-  height: 350px;
   display: block;
 }
 .left p,
@@ -377,6 +376,14 @@ body {
 }
 .right {
   float: right;
+}
+.hightLightText {
+  font-size: 3em;
+  margin: 0 auto;
+  text-shadow: 2px 2px #ff4d4d, 5px 5px #000;
+}
+a {
+  text-decoration: none;
 }
 header,
 #main {
@@ -425,25 +432,40 @@ nav li a:hover {
   color: #000;
 }
 /*************** Content **********************/
-#main {
+#main,
+#iam,
+#iknow {
   overflow: hidden;
+}
+#main {
   margin-top: 100px;
 }
-#main h2 {
-  font-size: 3em;
-  margin: 0 auto;
+#iam h2 {
   width: 312px;
-  text-shadow: 2px 2px #ff4d4d, 5px 5px #000;
 }
-#main .left p,
-#main .right p {
+#iam .left p,
+#iam .right p {
   font-size: 2em;
   color: rgba(0,0,0,0.5);
+}
+#iam .left p a,
+#iam .right p a {
+  color: rgba(0,0,0,0.8);
+}
+#iknow h2 {
+  width: 387px;
+  margin-bottom: 30px;
+}
+#iknow p {
+  font-size: 2em;
+  color: rgba(0,0,0,0.5);
+  padding: 0;
+  margin: 5px 0 10px;
 }
 /*************** Footer **********************/
 footer {
   width: 100%;
-  margin: 5px 0 0;
+  margin: 30px 0 0;
 }
 #foot-hd {
   background: url("../img/footer-hd.png");
@@ -482,6 +504,14 @@ footer {
   border-radius: 25px;
   width: 44px;
   height: 44px;
+}
+#findme #contact h3,
+#findme #contact p {
+  padding: 5px;
+  margin: 0;
+}
+#findme #contact p {
+  font-size: 1.6em;
 }
 #tweets {
   background: url("../img/messagebubble.png") no-repeat;
