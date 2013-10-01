@@ -1,0 +1,24 @@
+{
+  "name": "garbray.github.com",
+  "version": "0.0.0",
+  "description": "new website",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garbray/garbray.github.com"
+  },
+  "author": "Bryan Garzon Bahamon",
+  "license": "apache2",
+  "bugs": {
+    "url": "https://github.com/garbray/garbray.github.com/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  }
+}

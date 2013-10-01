@@ -3,103 +3,40 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title></title>
-	<meta name="description" content="">
-	<meta name="viewport" content="width=device-width">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-	<link rel="stylesheet" href="css/maincompress.css">
-	<script src="js/lib/modernizr-2.6.1.min.js"></script>
-</head>
-<body>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-	<header>
-		<div id="title">
-			<h1><a href="http://dksource.com.ar">{ Garbray }</a></h1>
-		</div>
-		<nav>
-			<ul>
-				<li>
-					<a href="#" class="selected">Home</a>	
-				</li>
-				<li>
-					<a href="#">Blog</a>
-				</li>
-			</ul>   
-		</nav>
-	</header>
-	<div id="main">
-		<div id="iam">
-			<h2 class="hightLightText"><a href="">* Who I am? *</a></h2>
-			<div class="left">
-				<p>System ingenier who loves web design, frond-end, back-end development and the good music.</p>
-			</div>
-			<div class="right">
-				<p>If you want to see the projects I've done, go to github and search for garbray and look around my <a href="http://github.com/garbray" target="_blank"> projects</a>.</p>
-			</div>
-		</div>
-		<div id="iknow">
-			<h2 class="hightLightText"><a href="">* What I know? *</a></h2>
-			<p>Java, Python, Html, Css, Php, JavaScript(jQuery, Mootools...)</p>
-			<p>Django, Express</p>
-			<p>OracleDB, MongoDB, Postgresql, MySQL</p>
-			<p>Stylus, Compass, Sass</p>
-		</div>		
-	</div>
+        <!-- Add your site or application content here -->
+        <p>Hello world! This is HTML5 Boilerplate.</p>
 
-	<footer>
-		<div id="foot-hd">
-		</div>
-		<div id="foot-bg">
-			<div id="foot-cont">
-				<div id="tweets" class="left">
-					<div id="tweets-container">
-						
-					</div>
-				</div>
-				<div id="findme" class="right">
-					<h3>Find me on:</h3>
-					<ul>
-						<li>
-							<a href="http://twitter.com/garbray" target="_blank">
-								<img src="img/social/twitter.png" alt="twitter">
-							</a>
-						</li>
-						<li>
-							<a href="https://plus.google.com/114214027246580334236/posts" target="_blank">
-								<img src="img/social/google-plus.png" alt="google plus">
-							</a>
-						</li>
-						<li>
-							<a href="http://github.com/garbray" target="_blank">
-								<img src="img/social/github.png" alt="github">
-							</a>
-						</li>
-						<li>
-							<a href="http://tumblr.com" target="_blank">
-								<img src="img/social/tumblr.png" alt="tumblr">
-							</a>
-						</li>
-					</ul>
-					<div id="contact">
-						<h3>Bryan Garzón Bahamón</h3>
-						<p>057 304 437 56 50</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-	<script type="text/javascript" src="js/lib/mootools.js"></script>
-	<script type="text/javascript" src="js/lib/mootools.more.js"></script>
-	<script data-main="js/main" src="js/lib/require.min.js"></script>
-	<script type="text/javascript">
-		// requirejs.config({
-  //   		baseUrl: 'js/'
-		// });
-	</script>
-</body>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+    </body>
 </html>
