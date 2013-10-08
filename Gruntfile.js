@@ -25,6 +25,13 @@ module.exports = function(grunt) {
                 },
             },
             src: ['js/modules/*.js']
+        },
+        uglify: {
+            build: {
+                files: {
+                    'js/main.min.js': ['js/modules/src/main.js']
+                }
+            }
         }
     });
 
@@ -32,6 +39,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-uglify');
 
-    grunt.registerTask('build', ['jshint','compass:dev']);
-    grunt.registerTask('build_prod', ['compass:dist']);
+    grunt.registerTask('build', ['jshint', 'uglify','compass:dev']);
+    grunt.registerTask('build_prod', 'uglify', ['compass:dist']);
 };
