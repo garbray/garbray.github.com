@@ -1,4 +1,4 @@
-# [Garbray](http://garbray.co)
+# [HTML5 Boilerplate](http://html5boilerplate.com)
 
 test
 
