@@ -344,13 +344,13 @@ textarea {
 }
 /* line 48, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/scaffolding.less */
 a {
-  color: #a4c92c;
+  color: #000000;
   text-decoration: none;
 }
 /* line 52, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/scaffolding.less */
 a:hover,
 a:focus {
-  color: #718a1e;
+  color: #000000;
   text-decoration: underline;
 }
 /* line 58, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/scaffolding.less */
@@ -591,11 +591,11 @@ cite {
 }
 /* line 94, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/type.less */
 .text-primary {
-  color: #a4c92c;
+  color: #000000;
 }
 /* line 595, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/mixins.less */
 a.text-primary:hover {
-  color: #829f23;
+  color: #000000;
 }
 /* line 97, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/type.less */
 .text-success {
@@ -632,11 +632,11 @@ a.text-danger:hover {
 /* line 113, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/type.less */
 .bg-primary {
   color: #fff;
-  background-color: #a4c92c;
+  background-color: #000000;
 }
 /* line 586, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/mixins.less */
 a.bg-primary:hover {
-  background-color: #829f23;
+  background-color: #000000;
 }
 /* line 119, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/type.less */
 .bg-success {
@@ -2543,8 +2543,8 @@ fieldset[disabled] .btn-default.active {
 /* line 60, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/buttons.less */
 .btn-primary {
   color: #ffffff;
-  background-color: #a4c92c;
-  border-color: #93b427;
+  background-color: #000000;
+  border-color: #000000;
 }
 /* line 504, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/mixins.less */
 .btn-primary:hover,
@@ -2553,8 +2553,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #89a825;
-  border-color: #6a821c;
+  background-color: #000000;
+  border-color: #000000;
 }
 /* line 513, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/mixins.less */
 .btn-primary:active,
@@ -2578,12 +2578,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #a4c92c;
-  border-color: #93b427;
+  background-color: #000000;
+  border-color: #000000;
 }
 /* line 531, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/mixins.less */
 .btn-primary .badge {
-  color: #a4c92c;
+  color: #000000;
   background-color: #ffffff;
 }
 /* line 64, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/buttons.less */
@@ -2772,7 +2772,7 @@ fieldset[disabled] .btn-danger.active {
 }
 /* line 85, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/buttons.less */
 .btn-link {
-  color: #a4c92c;
+  color: #000000;
   font-weight: normal;
   cursor: pointer;
   border-radius: 0;
@@ -2796,7 +2796,7 @@ fieldset[disabled] .btn-link {
 /* line 104, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/buttons.less */
 .btn-link:hover,
 .btn-link:focus {
-  color: #718a1e;
+  color: #000000;
   text-decoration: underline;
   background-color: transparent;
 }
@@ -3768,7 +3768,7 @@ input[type="button"].btn-block {
   color: #ffffff;
   text-decoration: none;
   outline: 0;
-  background-color: #a4c92c;
+  background-color: #000000;
 }
 /* line 100, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/dropdowns.less */
 .dropdown-menu > .disabled > a,
@@ -4273,7 +4273,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav .open > a:hover,
 .nav .open > a:focus {
   background-color: #f5f5f5;
-  border-color: #a4c92c;
+  border-color: #000000;
 }
 /* line 59, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/navs.less */
 .nav .nav-divider {
@@ -4387,7 +4387,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #a4c92c;
+  background-color: #000000;
 }
 /* line 144, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/navs.less */
 .nav-stacked > li {
@@ -5076,7 +5076,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 6px 12px;
   line-height: 1.42857143;
   text-decoration: none;
-  color: #a4c92c;
+  color: #000000;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   margin-left: -1px;
@@ -5099,7 +5099,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
-  color: #718a1e;
+  color: #000000;
   background-color: #f5f5f5;
   border-color: #dddddd;
 }
@@ -5112,8 +5112,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .pagination > .active > span:focus {
   z-index: 2;
   color: #ffffff;
-  background-color: #a4c92c;
-  border-color: #a4c92c;
+  background-color: #000000;
+  border-color: #000000;
   cursor: default;
 }
 /* line 63, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/pagination.less */
@@ -5249,12 +5249,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 /* line 46, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/labels.less */
 .label-primary {
-  background-color: #a4c92c;
+  background-color: #000000;
 }
 /* line 575, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/mixins.less */
 .label-primary[href]:hover,
 .label-primary[href]:focus {
-  background-color: #829f23;
+  background-color: #000000;
 }
 /* line 50, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/labels.less */
 .label-success {
@@ -5331,7 +5331,7 @@ a.badge:focus {
 /* line 48, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/badges.less */
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-  color: #a4c92c;
+  color: #000000;
   background-color: #ffffff;
 }
 /* line 53, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/badges.less */
@@ -5403,7 +5403,7 @@ a.list-group-item.active > .badge,
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-  border-color: #a4c92c;
+  border-color: #000000;
 }
 /* line 32, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/thumbnails.less */
 .thumbnail .caption {
@@ -5541,7 +5541,7 @@ a.thumbnail.active {
   line-height: 20px;
   color: #ffffff;
   text-align: center;
-  background-color: #a4c92c;
+  background-color: #000000;
   -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: width 0.6s ease;
@@ -5683,8 +5683,8 @@ a.list-group-item.active:hover,
 a.list-group-item.active:focus {
   z-index: 2;
   color: #ffffff;
-  background-color: #a4c92c;
-  border-color: #a4c92c;
+  background-color: #000000;
+  border-color: #000000;
 }
 /* line 78, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/list-group.less */
 a.list-group-item.active .list-group-item-heading,
@@ -5696,7 +5696,7 @@ a.list-group-item.active:focus .list-group-item-heading {
 a.list-group-item.active .list-group-item-text,
 a.list-group-item.active:hover .list-group-item-text,
 a.list-group-item.active:focus .list-group-item-text {
-  color: #ebf4cd;
+  color: #666666;
 }
 /* line 470, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/mixins.less */
 .list-group-item-success {
@@ -6067,21 +6067,21 @@ a.list-group-item-danger.active:focus {
 }
 /* line 227, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/panels.less */
 .panel-primary {
-  border-color: #a4c92c;
+  border-color: #000000;
 }
 /* line 408, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/mixins.less */
 .panel-primary > .panel-heading {
   color: #ffffff;
-  background-color: #a4c92c;
-  border-color: #a4c92c;
+  background-color: #000000;
+  border-color: #000000;
 }
 /* line 413, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/mixins.less */
 .panel-primary > .panel-heading + .panel-collapse .panel-body {
-  border-top-color: #a4c92c;
+  border-top-color: #000000;
 }
 /* line 418, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/mixins.less */
 .panel-primary > .panel-footer + .panel-collapse .panel-body {
-  border-bottom-color: #a4c92c;
+  border-bottom-color: #000000;
 }
 /* line 230, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/components/bootstrap/less/panels.less */
 .panel-success {
@@ -7033,8 +7033,148 @@ button.close {
     display: none !important;
   }
 }
-/* line 15, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/less/aditional.less */
-.navbar {
-  -webkit-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.53);
-  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.53);
+/* line 1, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/less/navbar.less */
+.sidebarnav {
+  background: #FFF;
+  bottom: 0px;
+  box-shadow: 3px -4px 3px rgba(0, 0, 0, 0.4);
+  color: #CCCCCC;
+  font-size: 15px;
+  left: 0px;
+  position: fixed;
+  overflow: hidden;
+  top: 0px;
+  width: 50px;
+  z-index: 10;
+}
+/* line 13, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/less/navbar.less */
+.sidebarnav ul {
+  list-style: none;
+  padding: 0;
+  width: 200px;
+}
+/* line 17, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/less/navbar.less */
+.sidebarnav ul li {
+  text-align: center;
+  padding: 15px 0;
+}
+/* line 21, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/less/navbar.less */
+.sidebarnav ul li .btn-lg .glyphicon {
+  float: left;
+  left: 15px;
+}
+/* line 24, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/less/navbar.less */
+.sidebarnav ul li .btn-lg .glyphicon.glyphicon-remove {
+  float: right;
+  left: -15px;
+}
+/* line 30, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/less/navbar.less */
+.sidebarnav ul li.open-menu {
+  background: black;
+}
+/* line 33, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/less/navbar.less */
+.sidebarnav ul li.open-menu a span {
+  color: white;
+}
+/* line 53, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/less/navbar.less */
+.wrapper {
+  padding-left: 50px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+/* line 61, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/less/navbar.less */
+.wrapper .fullscreen {
+  width: 100%;
+  height: 840px;
+}
+/* line 65, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/less/navbar.less */
+.wrapper .fullscreen.first_slide {
+  background: #0ed4c8;
+  /*fall back*/
+  background: -moz-linear-gradient(90deg, #0ed4c8 0%, #0ed4c8 50%, #0ab0a6 50%, #0ab0a6 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #0ed4c8), color-stop(50%, #0ed4c8), color-stop(50%, #0ab0a6), color-stop(100%, #0ab0a6));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(90deg, #0ed4c8 0%, #0ed4c8 50%, #0ab0a6 50%, #0ab0a6 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(90deg, #0ed4c8 0%, #0ed4c8 50%, #0ab0a6 50%, #0ab0a6 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(90deg, #0ed4c8 0%, #0ed4c8 50%, #0ab0a6 50%, #0ab0a6 100%);
+  /* IE10+ */
+  background: linear-gradient(90deg, #0ed4c8 0%, #0ed4c8 50%, #0ab0a6 50%, #0ab0a6 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@startColor', endColorstr='@endColor', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+/* line 70, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/less/navbar.less */
+.wrapper .fullscreen.second_slide {
+  background: #8981e4;
+  /*fall back*/
+  background: -moz-linear-gradient(-90deg, #8981e4 0%, #8981e4 50%, #716abe 50%, #716abe 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #8981e4), color-stop(50%, #8981e4), color-stop(50%, #716abe), color-stop(100%, #716abe));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-90deg, #8981e4 0%, #8981e4 50%, #716abe 50%, #716abe 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-90deg, #8981e4 0%, #8981e4 50%, #716abe 50%, #716abe 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-90deg, #8981e4 0%, #8981e4 50%, #716abe 50%, #716abe 100%);
+  /* IE10+ */
+  background: linear-gradient(-90deg, #8981e4 0%, #8981e4 50%, #716abe 50%, #716abe 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@startColor', endColorstr='@endColor', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+/* line 75, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/less/navbar.less */
+.wrapper .fullscreen.third_slide {
+  background: #ff6f6f;
+  /*fall back*/
+  background: -moz-linear-gradient(90deg, #ff6f6f 0%, #ff6f6f 50%, #d45b5b 50%, #d45b5b 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #ff6f6f), color-stop(50%, #ff6f6f), color-stop(50%, #d45b5b), color-stop(100%, #d45b5b));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(90deg, #ff6f6f 0%, #ff6f6f 50%, #d45b5b 50%, #d45b5b 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(90deg, #ff6f6f 0%, #ff6f6f 50%, #d45b5b 50%, #d45b5b 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(90deg, #ff6f6f 0%, #ff6f6f 50%, #d45b5b 50%, #d45b5b 100%);
+  /* IE10+ */
+  background: linear-gradient(90deg, #ff6f6f 0%, #ff6f6f 50%, #d45b5b 50%, #d45b5b 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@startColor', endColorstr='@endColor', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+/* line 80, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/less/navbar.less */
+.wrapper .fullscreen.fourth_slide {
+  background: #323232;
+  /*fall back*/
+  background: -moz-linear-gradient(-90deg, #323232 0%, #323232 50%, #282828 50%, #282828 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #323232), color-stop(50%, #323232), color-stop(50%, #282828), color-stop(100%, #282828));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-90deg, #323232 0%, #323232 50%, #282828 50%, #282828 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-90deg, #323232 0%, #323232 50%, #282828 50%, #282828 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-90deg, #323232 0%, #323232 50%, #282828 50%, #282828 100%);
+  /* IE10+ */
+  background: linear-gradient(-90deg, #323232 0%, #323232 50%, #282828 50%, #282828 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@startColor', endColorstr='@endColor', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+}
+/* line 85, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/less/navbar.less */
+.wrapper .over_div {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 50%;
+}
+/* line 93, /Volumes/files/workspace/gh-pages/garbray.github.com/app/static/less/navbar.less */
+.wrapper .last_divs {
+  top: 100%;
+  background: #ff6f6f;
 }
