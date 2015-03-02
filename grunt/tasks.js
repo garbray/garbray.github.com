@@ -25,7 +25,7 @@ module.exports = function(grunt) {
       // 'cdnify',
       // 'ngmin:dist',
       'uglify:dist',
-      // 'rev',
+      'rev',
       'usemin'
     ]);
 
