@@ -5,6 +5,7 @@ module.exports = function(grunt) {
   grunt.registerTask('server', function() {
     grunt.task.run([
       'jshint',
+      'karma',
       'connect:server',
       'less:dev',
       'open',

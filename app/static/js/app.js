@@ -1,3 +1,5 @@
+'use strict';
+
 var app = {
 	defaults: {
 		totalHeight: 0,
@@ -56,3 +58,8 @@ var app = {
 $(function() {
 	app.initialize();
 });
+
+var person = function (name, lastname) {
+	this.name = name;
+	this.lastname = lastname;
+}

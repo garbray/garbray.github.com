@@ -1,5 +1,6 @@
 // Karma configuration
 // Generated on Sun Mar 01 2015 17:36:14 GMT-0500 (COT)
+'use strict';
 
 module.exports = function(config) {
   config.set({
@@ -15,6 +16,10 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+        //app files
+        'app/static/app.js',
+
+        //
     ],
 
 

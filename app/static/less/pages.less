@@ -1,0 +1,50 @@
+body {
+	// height: 2600px;
+	// position: relative;
+	// left: 0px;
+	// top: 0px;
+	// right: 0px;
+	// bottom: 0px;
+	// overflow: auto;
+	// overflow-y: hidden;
+}
+
+.wrapper {
+	padding: 0;
+	// overflow: hidden;
+	.fullscreen {
+		width: 100%;
+		height: 100vh;//100%
+		position: relative;
+		// position: absolute;
+		&.first_slide, .fourth_slide {
+			background: @light-green;
+			.diagonal-background(@light-green; darken(@light-green, 4%); 90deg);
+		}
+		&.second_slide {
+			background: @light-purple;
+			.diagonal-background(@light-purple; darken(@light-purple, 4%); 90deg);
+
+		}
+		&.third_slide {
+			background: @light-orange;
+			.diagonal-background(@light-orange; darken(@light-orange, 4%); 90deg);
+
+		}
+		&.fourth_slide {
+			background: @light-green;
+			.diagonal-background(@light-green; darken(@light-green, 4%); 90deg);
+		}
+	}
+	.over_div_gradiant {
+		position: absolute;
+		bottom: 0px !important;
+		left: 50% !important;
+		margin-left: -784px !important;
+		width: 1569px !important;
+	}
+	.last_divs {
+		top: 100%;
+		// background: @light-pink;
+	}
+}

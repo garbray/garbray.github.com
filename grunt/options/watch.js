@@ -13,10 +13,10 @@ module.exports = function(grunt) {
         },
         less: {
             files: [
-                '<%= grunt.config.app %>/static/less/{,**/}*.less',
+                '<%= grunt.config.app %>/static/less/*.less',
             ],
             livereload: true,
-           // tasks: ['compass:dev', 'csslint']
+           tasks: ['less:dev']
         },
         html: {
             files: [

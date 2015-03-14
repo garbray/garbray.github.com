@@ -34,6 +34,7 @@
         "beforeEach": false,
         "browser": true,
         "app": false,
-        "$": true
+        "$": true,
+        "config": true
     }
 }
